@@ -1,0 +1,1 @@
+/mnt/hgfs/E/SVN/picPassthrough/tuchuan/TServer/build/linux/src/tserver/CMakeFiles/tserver.dir

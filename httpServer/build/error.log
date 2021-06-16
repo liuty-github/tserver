@@ -1,0 +1,1563 @@
+2021/06/11 17:31:20 [error] [PID 17445] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 17:31:20 [info] [PID 17445] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 8 (11: Resource temporarily unavailable) 
+2021/06/11 17:31:20 [info] [PID 17445] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 17:31:20 [info] [PID 17445] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 17:31:20 [info] [PID 17445] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 17:31:20 [debug] [PID 17445] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 17:36:17 [info] [PID 17907] [tProccess.cpp+119 usrDamon] usrDamon success, proccess name = tserver-master-proccess, pid = 17907
+2021/06/11 17:36:17 [info] [PID 17907] [tThread.cpp+7 tThread] 无参数构造函数
+2021/06/11 17:36:17 [info] [PID 17907] [tThread.cpp+7 tThread] 无参数构造函数
+2021/06/11 17:36:46 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6
+2021/06/11 17:36:46 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+
+2021/06/11 17:36:46 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/*
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:����
+2021/06/11 17:36:46 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/*
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html
+2021/06/11 17:36:46 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:
+2021/06/11 17:45:57 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 17:45:57 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 17:45:57 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 17:45:57 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 17:45:57 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 17:45:57 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:12 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:12 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:12 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:12 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:12 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:12 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:13 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:13 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:13 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:13 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:13 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:13 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:14 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:14 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:14 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:14 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:14 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:14 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:16 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:16 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:17 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:17 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:17 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:17 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:17 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:17 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:18 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:18 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:18 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:18 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:18 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:18 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:18 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:19 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+66 init] receive a new connect,ip = 192.168.37.1, fd = 6 (11: Resource temporarily unavailable) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /index2.html HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Upgrade-Insecure-Requests: 1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 1005
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html">
+<title>html用法记录</title>
+ 
+</head>
+ 
+<body>
+ 
+<p>我是一个段落</p>
+ 
+<i>我是斜体</i>
+ 
+<br/>
+ 
+<small>我是小字体</small>
+ 
+<br/>
+ 
+<b>我是粗体</b>
+ 
+<br/>
+ 
+我是上一行<br/>我是下一行
+ 
+<p>接下来是一条水平线</p>
+ 
+ 
+<hr/>
+ 
+<li>我是第一个列表项</li>
+ 
+<li>我是第二个</li>
+ 
+<a href="https://www.luogu.org/">这是一个指向洛谷的链接</a>
+ 
+<br/>
+ 
+<p><a href="#heading1">转到标题1</a></p>
+ 
+<p><a href="#heading2">转到标题2</a></p>
+ 
+<h1 id="heading1">标题1</h1>
+ 
+<p>啦啦啦，过来喽</p>
+ 
+<h1 id="heading2">标题2</h1>
+ 
+<p>嘿嘿嘿，还是没毛病</p>
+ 
+<br/>
+ 
+<img src="76107.jpg" alt="对吗?" />
+ 
+<br/><br/><br/>
+ 
+<table border="1">
+ 
+<tr>
+ 
+<td>单元格1</td>
+ 
+<td>单元格2</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>单元格3</td>
+ 
+<td>单元格4</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+ 
+</html>
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /76107.jpg HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Cache-Control: max-age=0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+232 proccess_write] 待发送数据:HTTP/1.1 200 OK
+Content-Length: 52916
+Content-Type:text/html
+Connection: keep-alive
+
+ (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+233 proccess_write] 待发送文件:���� (2: No such file or directory) 
+2021/06/11 18:52:19 [info] [PID 17907] [v2vhttp_conn.cpp+170 proccess] 收到请求 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:GET /favicon.ico HTTP/1.1 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Host: 192.168.37.129:57777 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept: image/webp,*/* (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Accept-Encoding: gzip, deflate (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Connection: keep-alive (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line:Referer: http://192.168.37.129:57777/index2.html (2: No such file or directory) 
+2021/06/11 18:52:19 [debug] [PID 17907] [v2vhttp_conn.cpp+252 proccess_read] got 1 http line: (2: No such file or directory) 
+2021/06/11 18:52:20 [error] [PID 17907] [tserver.cpp+72 main] 对端断开或遇到错误 (11: Resource temporarily unavailable) 
