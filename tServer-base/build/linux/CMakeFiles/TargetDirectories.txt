@@ -1,0 +1,2 @@
+/mnt/hgfs/E/other/TServer/build/linux/src/tEngine/CMakeFiles/tEngine.dir
+/mnt/hgfs/E/other/TServer/build/linux/src/tserver/CMakeFiles/tserver.dir

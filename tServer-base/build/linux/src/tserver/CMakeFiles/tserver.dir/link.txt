@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -g -ggdb -fPIC -std=c++11    CMakeFiles/tserver.dir/tserver.cpp.o  -o ../../../tserver  -L/mnt/hgfs/E/other/TServer/build -rdynamic ../../../libtEngine.so -lpthread -ldl -Wl,-rpath,/mnt/hgfs/E/other/TServer/build 
